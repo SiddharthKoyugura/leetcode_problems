@@ -1,11 +1,11 @@
 #### Approach 1:
 
-# def searchInsert(nums, target):
-#     n = len(nums)
-#     for i in range(n):
-#         if (nums[i]==target) or (nums[i]>target):
-#             return i
-#     return n
+def searchInsert(nums, target):
+    n = len(nums)
+    for i in range(n):
+        if (nums[i]==target) or (nums[i]>target):
+            return i
+    return n
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)
